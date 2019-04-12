@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .nav-item>a:first-child{
+            margin-right: 10px;
+            width: 200px;
+        }
+        .container-fluid:first-child{
+            
+        }
+        
+        .second-div-image{
+            
+        }
+        .right-four-image{  
+            
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            
+            /* justify-content: space-around; */
+            align-content: center;
+            position: absolute;
+             top: 10%;
+             right: 5%; 
+
+        }
+        .right-four-image>img{
+            border-radius: 3%;
+            opacity: 0.4;
+            max-width: 35%;
+            max-height: 35%;
+            width: 35%;
+            padding: 3px;
+        }
+        .right-four-image>img:hover{
+            opacity: 1;
+            
+        }
+        .second-background-img{
+            /* position: absolute; */
+            z-index: -1;
+        }
+        .cooperation-inner>div{
+            /* border: 2px solid black; */
+            text-align: center;
+        }   
+        .cooperation-inner>div>img{
+            max-width: 50%;
+            max-height: 70%;
+            border-radius: 50%;
+            padding : 10% 0;
+        }
+
+        @media screen and (max-width: 1500px){
+            #btn_move{
+                display: none;
+            }
+        }
+    </style>
+</head>
+    <body style="background-color: #FEE9E3;">
+
+        <div id="app">
+
+        </div>
+        <script src="navbar.js"></script>
+        <!-- first-div -->
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="Image/11.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Image/first-layout.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Image/first-layout.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+        </div>
+
+        <!-- <div class="container-fluid border border-success">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="Image/first-layout.jpg" width="100%" class="img-fluid img-responsive" height="100%" alt="">
+                </div>
+            </div>           
+        </div> -->
+        <!-- end-first-div -->
+
+        <button id="btn_move" style="border-radius: 50%;  position: fixed; right: 2%; bottom: 2%;" class="btn btn-light ">></button>
+
+        <!-- second-div -->
+
+        <div class="container-fluid py-2 border border-success" >
+            
+            <div class="row second-div-image " >      
+                <div class="col-lg-12"   > 
+                    <img src="Image/4.jpg" class="second-background-img img-fluid" width="99%" height="100%" alt=""> 
+                    <div class=" right-four-image view overlay zoom">
+                            <img src="Image/5.jpg" class="img-fluid img-thumbnail" width="10%" alt="">
+                            <img src="Image/5.jpg" class="img-fluid img-thumbnail" width="" alt="">
+                            <img src="Image/5.jpg" class="img-fluid img-thumbnail" width="" alt="">
+                            <img src="Image/5.jpg" class="img-fluid img-thumbnail" width="" alt="">
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+           <!-- end of second-div -->
+           <!-- third-div -->
+        <div class="container-fluid  py-5 ">
+            <div class="row">
+                <div class="col-lg-2">
+
+                </div>
+                <div class="col-lg-3 py-3" style="" >
+                    <center class="py-1"><h2><b>Have You Experienced With The Powerful Cross</b></h2></center>
+                    <br>
+                    <p style="overflow: hidden;  text-align: center;  max-height: 60%;">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document without relying on meaningful content (also called greeking). Replacing the actual content with placeholder text allows designers to design the form of the content before the content itself has been produced.
+
+                            The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC Latin text by Cicero, with words altered, added, and removed to make it nonsensical, improper Latin.
+                            
+                            A variation of the ordinary lorem ipsum text has been used in typesetting since the 1960s or earlier, when it was popularized by advertisements for Letraset transfer sheets. It was introduced to the information age in the mid-1980s by Aldus Corporation, which employed it in graphics and word-processing templates for its desktop publishing program PageMaker. Many popular word processors use this format as a placeholder. Some examples are Pages or Microsoft Word. 
+                    </p>
+                </div>
+                <div class="col-lg-1">
+
+                </div>
+              
+                <div class="col-lg-5">
+                    <img src="Image/30.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- end of third-div -->
+
+        <!-- third-div -->
+        <div class="container-fluid  py-5 ">
+            <div class="row">
+                <div class="col-lg-1">
+        
+                </div>  
+                 
+                <div class="col-lg-5">
+                        <img src="Image/24.jpg" class="img-fluid" alt="">
+                </div>
+                <!--     <div class="col-lg-1">
+
+                </div>   margin-top: 10% ;  -->
+                <div class="col-lg-3">
+                    <center class="py-1"><h3><b>Are You Ready With Your Partner</b></h3></center>
+                    <br>
+                    <p style="overflow: hidden; text-align: center; max-height: 60%; ">
+                        In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document without relying on meaningful content (also called greeking). Replacing the actual content with placeholder text allows designers to design the form of the content before the content itself has been produced.
+        
+                                    The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC Latin text by Cicero, with words altered, added, and removed to make it nonsensical, improper Latin.
+                                    
+                                    A variation of the ordinary lorem ipsum text has been used in typesetting since the 1960s or earlier, when it was popularized by advertisements for Letraset transfer sheets. It was introduced to the information age in the mid-1980s by Aldus Corporation, which employed it in graphics and word-processing templates for its desktop publishing program PageMaker. Many popular word processors use this format as a placeholder. Some examples are Pages or Microsoft Word. 
+                    </p>
+                </div>
+                  
+            </div>
+        </div>
+        <!-- end of third-div -->
+        
+        <!-- fourth-div -->
+        <div class="container-fluid py-5" style="height:50%; background-color: white;">
+            <center >
+                <h1>Our Cooperation</h1>
+            </center>
+            <div class="row cooperation-inner py-5">
+                <div class="col-lg-1">
+                    <p></p>
+                </div>
+                <div class="col-lg-2">
+                    <img src="Image/3.jpg" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="Image/5.jpg" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="Image/6.jpg" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="Image/7.jpg" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="Image/8.jpg" alt="">
+                </div>
+                <div class="col-lg-1">
+                    <p></p>
+                </div>
+                
+                <div class="col-lg-1">
+                    <p></p>
+                </div>
+                <div class="col-lg-2">
+                    <img src="Image/3.jpg" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="Image/3.jpg" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="Image/3.jpg" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="Image/3.jpg" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="Image/3.jpg" alt="">
+                </div>
+                <div class="col-lg-1">
+                    <p></p>
+                </div>
+            </div>   
+        </div>
+        <!-- end-of-fourth-div -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
