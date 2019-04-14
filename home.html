@@ -59,7 +59,11 @@
             border-radius: 50%;
             padding : 10% 0;
         }
-
+        .fader>p:hover{
+           transition: .2s ease-out;
+            font-size: 110%;
+           
+        }
         @media screen and (max-width: 1500px){
             #btn_move{
                 display: none;
@@ -75,7 +79,7 @@
         <script src="navbar.js"></script>
         <!-- first-div -->
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" style="" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                       <img src="Image/11.jpg" class="d-block w-100" alt="...">
@@ -102,7 +106,7 @@
 
         <!-- second-div -->
 
-        <div class="container-fluid py-2 border border-success" >
+        <div class="container-fluid py-2 border border-success" style="position:relative;">
             
             <div class="row second-div-image " >      
                 <div class="col-lg-12"   > 
@@ -162,11 +166,12 @@
                     <center class="py-1"><h3><b>Are You Ready With Your Partner</b></h3></center>
                     <br>
                     <p style="overflow: hidden; text-align: center; max-height: 60%; ">
+
                         In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document without relying on meaningful content (also called greeking). Replacing the actual content with placeholder text allows designers to design the form of the content before the content itself has been produced.
         
-                                    The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC Latin text by Cicero, with words altered, added, and removed to make it nonsensical, improper Latin.
+                        The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC Latin text by Cicero, with words altered, added, and removed to make it nonsensical, improper Latin.
                                     
-                                    A variation of the ordinary lorem ipsum text has been used in typesetting since the 1960s or earlier, when it was popularized by advertisements for Letraset transfer sheets. It was introduced to the information age in the mid-1980s by Aldus Corporation, which employed it in graphics and word-processing templates for its desktop publishing program PageMaker. Many popular word processors use this format as a placeholder. Some examples are Pages or Microsoft Word. 
+                        A variation of the ordinary lorem ipsum text has been used in typesetting since the 1960s or earlier, when it was popularized by advertisements for Letraset transfer sheets. It was introduced to the information age in the mid-1980s by Aldus Corporation, which employed it in graphics and word-processing templates for its desktop publishing program PageMaker. Many popular word processors use this format as a placeholder. Some examples are Pages or Microsoft Word. 
                     </p>
                 </div>
                   
@@ -226,7 +231,14 @@
             </div>   
         </div>
         <!-- end-of-fourth-div -->
+       
+        <!-- fifth-div -->
+        <div id="footer_app">
 
+        </div>
+            
+        <script src="footer-config.js"></script>
+        <!-- end-of-fifth-div -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

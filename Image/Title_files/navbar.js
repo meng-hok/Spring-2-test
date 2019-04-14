@@ -1,6 +1,6 @@
 document.getElementById("app").innerHTML  = `
 <!-- update navbar to fix and width 100% -->
-<nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-default navbar-fixed-top" style="position: fixed; top:0; z-index: 2; width: 100%; border-radius: 5px;">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-default navbar-fixed-top" style="position: fixed; z-index: 2; width: 100%; border-radius: 5px;">
     
     <!-- reposive- display -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
