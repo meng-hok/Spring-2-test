@@ -1,17 +1,19 @@
 document.getElementById("footer_app").innerHTML = `
 <footer class="section footer-classic context-dark bg-image " style="background: #2d3246;  color:whitesmoke; ">
 <br>
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-lg-2">
+        <div class="col-lg-1">
            
         </div>
-        <div class="col-lg-3 "> 
+        <div class="col-lg-4 "> 
             <br>
             <br>
-            
-            
-            <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.
+
+            <p>
+                We are glad to see you here and hope you enjoy with relaxing website,<br>
+                and you will experience with different place and powerful motorbike.<br>
+                Anyway thanks to our supporter that make this useful website alive.
             </p>
            
                
@@ -47,7 +49,7 @@ document.getElementById("footer_app").innerHTML = `
         <br>
     <center class="">
          <p>
-            ©  2018 Waves. All Rights Reserved.
+            ©  2019 Waves. All Rights Reserved.
         </p>
     </center>
  <hr>

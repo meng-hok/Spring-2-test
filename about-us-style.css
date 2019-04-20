@@ -1,0 +1,26 @@
+img{
+
+    border-radius: 6px;
+}
+p{
+    text-align: left;
+}
+.twelve-card>div{
+   margin: 3% auto;
+}
+.card-body{
+    text-align: center;
+}
+.fader>p:hover{
+   transition: .2s ease-out;
+    font-size: 110%;
+   
+}
+.founder-class>div>div>img{
+    width: 285px; 
+    height:200px;
+}
+.carousel-inner>div>img{
+    max-height: 992px;
+    overflow: hidden;
+}

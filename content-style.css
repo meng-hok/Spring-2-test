@@ -1,0 +1,42 @@
+.nav-item>a:first-child{
+    margin-right: 10px;
+    width: 200px;   
+}
+.row>div{
+  /* height: 200px; */
+  /* border: 2px solid black; */
+}
+.card-body-row-edition{
+    display: flex;
+    flex-direction: row;
+}
+.card-body>img{
+  max-height: 200px;
+  max-width: 100%;
+}
+.card-body-row-edition>img{
+    max-height: 200px;
+    max-width: 50%;
+}
+#card-6{
+  width:25%;   
+  height: auto;
+  margin-left: 2%;
+  
+}
+.right-third-div-four-image{
+  width: 70%;
+}
+@media screen and (max-width : 992px){
+  #card-6{
+    /* display: flex; */
+     margin-left: unset;
+     margin-bottom: 5%; 
+    /* width: unset; */
+    width: 100%;
+    /* flex-direction: column; */
+  }
+  .right-third-div-four-image{
+    width: unset;
+  }
+}

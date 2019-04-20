@@ -1,76 +1,62 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-    <!-- Font Awesome 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <!-- Bootstrap core CSS 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" rel="stylesheet">-->
-    <script src="card.js"> </script>
-         
-  
-  <style>
-      .nav-item>a:first-child{
-            margin-right: 10px;
-            width: 200px;   
-        }
-        .row>div{
-          /* height: 200px; */
-          /* border: 2px solid black; */
-        }
-        .card-body-row-edition{
-            display: flex;
-            flex-direction: row;
-        }
-        .card-body>img{
-          max-height: 200px;
-          max-width: 100%;
-        }
-        .card-body-row-edition>img{
-            max-height: 200px;
-            max-width: 50%;
-        }
-        
-  </style>
-  <body style="height:2000px;">
-        <div id="app">
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        </div> 
-        <script src="navbar.js"></script>
-        <!-- first-div -->
-        <div class="container-fluid mt-5">
-          <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8"></div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-12"></div>
-          </div>
-        </div>
-         <!-- first-div -->
-         <!-- second-div -->
-        
-        <div class="container-fluid mt-5">
-          <center>
-            <h1>
-                Travel Component
-            </h1>
-          </center>
-          <br>
-            <div class="row ">
-              <div class="col-lg-1"></div>
-  
-              <div class="col-lg-10" id="card-1">
-                  <!-- <div class="card shadow p-3 mb-5 bg-white rounded">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<script src="card.js"> </script>
+<link rel="stylesheet" href="content-style.css">
+
+<body style="height:2000px;">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog" style="">
+    <div class="modal-dialog modal-xl">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+
+      </div>
+
+    </div>
+  </div>
+  <script src="modal.js"></script>
+  <div id="app">
+
+  </div>
+  <script src="navbar.js"></script>
+
+
+  <!-- first-div -->
+  <div class="container-fluid mt-5" style="">
+    <div class="row">
+      <div class="col-lg-2 border border-success"></div>
+      <div class="col-lg-8 border border-success"></div>
+      <div class="col-lg-2 border border-success"></div>
+      <div class="col-lg-12 border border-success"></div>
+    </div>
+  </div>
+  <!-- first-div -->
+  <!-- second-div -->
+
+  <div class="container-fluid mt-5">
+    <center>
+      <h1>
+        Travel Component
+      </h1>
+    </center>
+    <br>
+    <div class="row ">
+      <div class="col-lg-1"></div>
+
+      <div class="col-lg-10" id="card-1">
+        <!-- <div class="card shadow p-3 mb-5 bg-white rounded">
                       <div class="card-body card-body-row-edition">
                           <img src="Image/3.jpg" class="img-thumbnail" alt="">
                           <div class="ml-5">
@@ -80,113 +66,131 @@
                           
                       </div>
                   </div> -->
-              </div>
-              <div class="col-lg-1"></div>
-              <!-- mid -->
-              <div class="col-lg-1"></div>
-              <div class="col-lg-5" id="card-2" >
-                  
-              </div>
-              <div class="col-lg-5" id="card-3"></div>
-              <div class="col-lg-1"></div>
-             
+      </div>
+      <div class="col-lg-1"></div>
+      <!-- mid -->
+      <div class="col-lg-1"></div>
+      <div class="col-lg-5 " id="card-2">
 
-              <!-- middle -->
-              <div class="col-lg-1"></div>
-              <div class="col-lg-5" id="card-4"></div>
-              <div class="col-lg-5"  id="card-5"></div>
-              <div class="col-lg-1"></div>
-         
-              <!-- <div class="col-lg-1"></div> -->
-            </div>
-            <br>
-            <center>
-              <h3>
-                  <a href="#">See More...</a>
-              </h3>
+      </div>
+      <div class="col-lg-5" id="card-3"></div>
+      <div class="col-lg-1"></div>
 
-            </center>
 
-          </div>
-          <!-- second-div -->
-         
-          <!-- third-div -->
-          <div class="container-fluid mt-5 third-div-display py-5" style="display:flex; flex-direction:row; flex-wrap:wrap;  justify-content: space-between; background-color: #f6f6f6;">
-              <div style="width:100%;">
-                  <center>
-                      <h1>
-                          Popular Place 
-                      </h1>
-                      <br>
-                  </center>  
-              </div>
-              
-              <div style="width:25%;   height: auto ;" class="ml-5" id="card-6">
-                  <div class="card shadow p-3 mb-5 bg-white rounded" style=" height: 100% ;">
+      <!-- middle -->
+      <div class="col-lg-1"></div>
+      <div class="col-lg-5" id="card-4"></div>
+      <div class="col-lg-5" id="card-5"></div>
+      <div class="col-lg-1"></div>
+
+      <!-- <div class="col-lg-1"></div> -->
+    </div>
+    <br>
+    <center>
+      <h3>
+        <a href="#">See More...</a>
+      </h3>
+
+    </center>
+
+  </div>
+  <!-- second-div -->
+
+  <!-- third-div -->
+  <div class="container-fluid mt-5 third-div-display py-5"
+    style="display:flex; flex-direction:row; flex-wrap:wrap;  justify-content: space-between; background-color: #f6f6f6;">
+    <div style="width:100%;">
+      <center>
+        <h1>
+          Popular Place
+        </h1>
+        <br>
+      </center>
+    </div>
+
+    <div style="" class="" id="card-6">
+      <!-- <div class="card shadow p-3 mb-5 bg-white rounded" style=" height: 100% ;">
                       <div class="card-body"> 
                           <img src="Image/second-layout.jpg" width="" class="img-thumbnail" alt="">
                           <div class="">
                               <h1 class="card-title">Title</h1>
                               <p class="card-text">We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing. </p>
+                              <button type="button" onclick="modalFit('${header}','${content}','${img}')" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Read More</button>
                           </div>
                           
                       </div>
-                  </div>
-              </div>
-              <div class="row" style="width: 70%;">
-                  
-                  <div class="col-lg-6" id="card-7"></div>
-                  <!-- <div class="col-lg-"></div> -->
-                  <div class="col-lg-6" id="card-8"></div>
-                  
-                  <!-- middle -->
-                  
-                  <div class="col-lg-6" id="card-9"></div>
-                  <!-- <div class="col-lg-2"></div> -->
-                  <div class="col-lg-6" id="card-10"></div>
-                  
-              </div>  
-              <div style="width:100%;">
-                  <center>
-                    <h3>
-                        <a href="#">See More...</a>
-                    </h3>   
-                </center> 
-              </div>
-          </div>
-          <!-- third-div -->
-       
+                  </div> -->
+    </div>
+    <div class="row right-third-div-four-image" style="">
+
+      <div class="col-lg-6 col-md-12" id="card-7"></div>
+      <!-- <div class="col-lg-"></div> -->
+      <div class="col-lg-6 col-md-12" id="card-8"></div>
+
+      <!-- middle -->
+
+      <div class="col-lg-6 col-md-12" id="card-9"></div>
+      <!-- <div class="col-lg-2"></div> -->
+      <div class="col-lg-6 col-md-12" id="card-10"></div>
+
+    </div>
+    <div style="width:100%;">
+      <center>
+        <h3>
+          <a href="#">See More...</a>
+        </h3>
+      </center>
+    </div>
+  </div>
+  <!-- third-div -->
 
 
-      <div id="footer_app" class="" >
-      </div> 
 
-        <script src="footer-config.js"></script>
+  <div id="footer_app" class="">
+  </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script>
-      // description
-      var card_1_des = `We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing. `;
-      card_1_des+=card_1_des+card_1_des+card_1_des+card_1_des+card_1_des+card_1_des+card_1_des;
-      card_1_des+=card_1_des;
+  <script src="footer-config.js"></script>
 
-    </script>
-    <script>
-        
-        card("card-1","31","Title",card_1_des);
-        card("card-2","6","Kawasaki Z250cc",card_1_des);
-        card("card-3","25","Pulsar NS200",card_1_des);
-        card("card-4","16","Tester",card_1_des);
-        card("card-5","30","Tester",card_1_des);
-        // place
-        card("card-7","7","Tester",card_1_des,false);
-        card("card-8","8","Tester",card_1_des,false);
-        card("card-9","9","Tester",card_1_des,false);
-        card("card-10","10","Tester",card_1_des,false);
-    </script>
-  </body>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script>
+    // description
+    let card_1_des = `Dirt bikes are motorcycles designed for off-road use. These include specifically off-road only bikes, plated dirt bikes, dual sport bikes, and adventure touring or adv bikes.`;
+    let card_2_des = `The Ninja Z250 is the new quarter litre naked motorcycle launched by Kawasaki India. Showcased first in 2013 at the Tokyo Motor Show, the Z250 looks like an exact descendant of `;
+    let card_3_des = `The Bajaj Pulsar NS200 was relaunched in early 2017 featuring a few cosmetic updates and retuned BS IV-compliant engine. It has been positioned between ...`;
+    let card_4_des = `Honda Giorno is the all new moped from Honda. With under seat storage, a bag hook, luggage shelf and European ..`;
+    let card_5_des = `This is a lightweight, powerful motorcycle optimized for speed and handling rather than comfort – and for quick rides over short distances.[1] With bodywork and control layout recalling early-1960s Grand Prix road racing motorcycles, café racers are noted for their visual minimalism, featuring low-mounted handlebars, prominent seat cowling and elongated fuel tank – and frequently knee-grips indented in the fuel tank.`;
+    let card_6_des = `Prepare for an assault on the senses. Southeast Asia has a bellyful of thundering motorbikes, fiery volcanic peaks, seething jungle temples and pungent markets. Yet we also love it for its squeaky-clean sands, barely believable islands and pagodas overlooking lily-topped lotus ponds. From temples to tropical rainforests, here are the top ten places to visit in Southeast Asia – as voted for by you. `;
+    let card_7_des = `Kinabalu National Park, a UNESCO world heritage site in Sabah, Malaysia, is home to one of the tallest mountains in Southeast Asia. Each year, over 40,000 people from all around the world head to Kinabalu National Park just to climb Mount Kinabalu. Completing the climb commonly takes two days, and people of varying ages undertake this challenge. Despite the high elevation, no special equipment or climbing expertise is required to reach the summit – just a reasonable level of fitness combined with top-notch determination will do!`;
+    let card_8_des = `Mount Ijen is a stratovolcano in East Java, Indonesia. The highest point of the volcano complex belongs to the famous, most active volcano in the country, Mount Merapi. A highly recommended site on Mount Ijen is the Blue Fire Crater. Hikers usually set off early in the morning (about 2 am) to reach the rim of the crater in time to witness the magical phenomenon of blue flames, which can only be seen in the dark. Hiring a guide is unnecessary as the pathway is prominent. Hikers will find themselves alongside friendly locals who undertake this hike every day to get to the sulphur mines.`;
+    let card_9_des = `Mount Rinjani is a massive, active volcano towering over the island of Lombok, Indonesia. It is the second highest volcano in Indonesia, and its summit promises one of the best views you can ever imagine. Conquering it is no breeze, however. Mount Rinjani welcomes trekkers through two routes: the northern side, closer to the main resort area as well as the eastern side, which is closer to the summit. Due to previous fatal accidents, hiring a certified guide has been made compulsory by the authorities of Rinjani Park. It typically takes trekkers four days to reach the summit. Those who are not up for this arduous journey can content themselves with hiking to the gorgeous crescent-shaped crater lake Segara Anak (child of the sea), and the Aik Kalak natural hot spring.`;
+    let card_10_des = `Vietnam’s highest peak, dubbed as “the Roof of Indochina”, is a very steep mountain that is only recommended for those in excellent shape. It takes a minimum of three days to scale to the peak and get back down. Mount Fansipan has rugged terrains, and hikers require plenty of energy and endurance. Once you spot a triangle metal piece that says “Fansipan 3,143m” on it, you know you’ve made it.`;
+  </script>
+
+  <script>
+
+    card("card-1", "31", "Dirt Bike", card_1_des, true);
+    card("card-2", "6", "Kawasaki Z250cc", card_2_des, true);
+    card("card-3", "25", "Pulsar NS200", card_3_des, true);
+    card("card-4", "18", "Giorno", card_4_des, true);
+    card("card-5", "30", "café racer", card_5_des, true);
+    // place
+    card("card-6", "75", "The best places to visit in Southeast Asia", card_6_des, false);
+    card("card-7", "76", "Mount Kinabalu", card_7_des, false);
+    card("card-8", "77", "Mount Ijen", card_8_des, false);
+    card("card-9", "78", "Mount Rinjani", card_9_des, false);
+    card("card-10", "79", "Mount Fansipan", card_10_des, false);
+  </script>
+</body>
+
 </html>
