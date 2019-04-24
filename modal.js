@@ -6,7 +6,7 @@ const modalFit = (title="heheh",paragraph="hehehe",image="3") => {
         </div>
         <div class="modal-body">
             <center>
-                <img src="Image/${image}.jpg" width="25%" height="50%" alt="">
+                <img src="Image/${image}.jpg" class="img-thumbnail" width="25%" height="50%" alt="">
             </center>
             <br>
             <p>

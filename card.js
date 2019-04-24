@@ -9,8 +9,6 @@ const card = (id,img,header,content,boo=true) =>{
                         <p class="card-text" style="${id=='card-6' ? 'max-height: 70px;':'max-height:25px;'}overflow:hidden;">${content} </p>
                         <button type="button" onclick="modalFit('${header}','${content}','${img}')" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Read More</button>
                     </div>
-  
                 </div>
-               
             </div>`;
   }
