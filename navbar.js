@@ -11,13 +11,13 @@ document.getElementById("app").innerHTML  = `
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link btn  btn-outline-dark" style="color:#f8f9fa !important; "  href="file:///home/menghok/Music/home.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link btn  btn-outline-dark" style="color:#f8f9fa !important; "  href="home.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link btn btn-outline-dark " style="color:#f8f9fa !important; " href="file:///home/menghok/Music/content.html">Content</a>
+                <a class="nav-link btn btn-outline-dark " style="color:#f8f9fa !important; " href="content.html">Content</a>
             </li>
             <li class="nav-item">
-                    <a class="nav-link btn btn-outline-dark " style="color:#f8f9fa !important;" href="file:///home/menghok/Music/about-us.html">About Us</a>
+                    <a class="nav-link btn btn-outline-dark " style="color:#f8f9fa !important;" href="about-us.html">About Us</a>
             </li>
         </ul>
         <a class="nav-link btn btn-outline-dark "  style="margin-right: 0.5%;" href="#">About us</a>
