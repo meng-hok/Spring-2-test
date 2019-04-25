@@ -1,4 +1,4 @@
-document.getElementById("app").innerHTML  = `
+document.getElementById("app").innerHTML = `
 <!-- update navbar to fix and width 100% -->
 <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-default navbar-fixed-top" style="position: fixed; top:0; z-index: 2; width: 100%; border-radius: 5px;">
     

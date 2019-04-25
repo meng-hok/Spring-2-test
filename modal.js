@@ -1,4 +1,4 @@
-const modalFit = (title="heheh",paragraph="hehehe",image="3") => {
+const modalFit = (title = "heheh", paragraph = "hehehe", image = "3") => {
     console.log(paragraph);
     document.getElementsByClassName('modal-content')[0].innerHTML = `
         <div class="modal-header">
